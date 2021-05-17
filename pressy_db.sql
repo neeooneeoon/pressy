@@ -1,4 +1,4 @@
-USE pressy;
+USE lgt1wvmddd5fu91w;
 
 CREATE TABLE `users` (
 	`id` int(11) AUTO_INCREMENT PRIMARY KEY NOT NULL,
