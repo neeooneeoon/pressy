@@ -19,15 +19,15 @@
         <?php include('../includes/navbar.php') ?>
 
         <div class="stats">
-            <a href="users.php" class="first btn btn-primary">
+            <a href="users.php" class="first btn" style="background-color: #0dcaf0;">
                 <span>43</span> <br>
                 <span>Newly registered users</span>
             </a>
-            <a href="posts.php" class="btn btn-primary">
+            <a href="posts.php" class="btn" style="background-color: #0dcaf0;">
                 <span>43</span> <br>
                 <span>Published posts</span>
             </a>
-            <a class="btn btn-primary">
+            <a class="btn btn-primary" style="background-color: #0dcaf0;">
                 <span>43</span> <br>
                 <span>Published comments</span>
             </a>
