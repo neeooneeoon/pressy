@@ -15,15 +15,8 @@
 </head>
 
 <body>
-    <?php include('../includes/navbar.php') ?>
-    <?php if (isset($_SESSION['user'])) : ?>
-        <div class="user-info">
-            <span><?php echo $_SESSION['user']['username'] ?></span> &nbsp; &nbsp; <br>
-            <a href="<?php echo BASE_URL . '/logout.php'; ?>" class="logout-btn">logout</a>
-        </div>
-    <?php endif ?>
-
     <div class="container dashboard">
+        <?php include('../includes/navbar.php') ?>
 
         <div class="stats">
             <a href="users.php" class="first btn">
@@ -34,7 +27,7 @@
                 <span>43</span> <br>
                 <span>Published posts</span>
             </a>
-            <a>
+            <a class="btn">
                 <span>43</span> <br>
                 <span>Published comments</span>
             </a>
@@ -43,7 +36,7 @@
         <br><br><br>
 
         <div class="buttons">
-            <a href="users.php" class="btn">Add Users</a><br>
+            <a href="users.php" class="btn">Add Users</a>
             <a href="posts.php" class="btn">Add Posts</a>
         </div>
 
