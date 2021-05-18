@@ -1,4 +1,4 @@
-USE lgt1wvmddd5fu91w;
+USE ou55ukpn13x8i4gt;
 
 CREATE TABLE `users` (
 	`id` int(11) AUTO_INCREMENT PRIMARY KEY NOT NULL,
@@ -32,7 +32,6 @@ CREATE TABLE `post_category` (
     `post_id` int(11) DEFAULT NULL,
     `cat_id` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
 
 
 INSERT INTO `users` (`id`, `username`, `email`, `role`, `password`) VALUES

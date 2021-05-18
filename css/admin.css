@@ -56,10 +56,7 @@ th { text-align: center;}
 * DASHBOARD
 * * * * * * * * * */
 .container {
-	width: 95%;
-	margin: 5px auto 50px;
-	border: 1px solid #BFBCB3;
-	padding: 10px 0px 50px;
+	
 }
 .container:after { content: ""; display: block; clear: both; }
 .container.dashboard h1 { text-align: center; margin: 25px; }
@@ -145,6 +142,7 @@ th { text-align: center;}
     overflow: hidden;
 	background-color: white;
     border-radius: 0px 0px 6px 6px;
+    display:block;
 }
 .navbar ul {
     list-style-type: none;
