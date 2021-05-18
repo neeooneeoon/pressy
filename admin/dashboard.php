@@ -33,7 +33,7 @@
             </a>
         </div>
 
-        <br><br><br>
+        <br>
 
         <div class="buttons">
             <a href="users.php" class="btn">Add Users</a>
