@@ -21,7 +21,7 @@
 
         <!-- Middle form - to create and edit  -->
         <div class="action">
-            <h1 class="page-title">Create/Edit Admin User</h1>
+            <h2 class="page-title">Create/Update User</h2>
 
             <form method="post" action="<?php echo BASE_URL . 'admin/users.php'; ?>">
 
