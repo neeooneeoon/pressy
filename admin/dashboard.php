@@ -19,25 +19,23 @@
         <?php include('../includes/navbar.php') ?>
 
         <div class="stats">
-            <a href="users.php" class="first btn">
+            <a href="users.php" class="first btn btn-primary">
                 <span>43</span> <br>
                 <span>Newly registered users</span>
             </a>
-            <a href="posts.php" class="btn">
+            <a href="posts.php" class="btn btn-primary">
                 <span>43</span> <br>
                 <span>Published posts</span>
             </a>
-            <a class="btn">
+            <a class="btn btn-primary">
                 <span>43</span> <br>
                 <span>Published comments</span>
             </a>
         </div>
 
-        <br>
-
         <div class="buttons">
-            <a href="users.php" class="btn">Add Users</a>
-            <a href="posts.php" class="btn">Add Posts</a>
+            <a href="users.php" class="btn btn-secondary">Add Users</a>
+            <a href="posts.php" class="btn btn-secondary">Add Posts</a>
         </div>
 
     </div>
