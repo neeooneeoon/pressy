@@ -11,11 +11,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ckeditor/4.8.0/ckeditor.js"></script>
     <link rel="stylesheet" href="../css/styles.css">
     <meta charset="UTF-8">
-    <title>Pressy - Dashboard</title>
+    <title>Pressy - Users</title>
 </head>
 
 <body>
-    <div class="container dashboard">
+    <div class="container content">
         <?php include('../includes/navbar.php') ?>
 
         <div class="stats">
