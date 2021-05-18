@@ -15,24 +15,22 @@
 </head>
 
 <body>
-    <div class="header">
-        <?php include('../includes/navbar.php') ?>
-        <?php if (isset($_SESSION['user'])) : ?>
-            <div class="user-info">
-                <span><?php echo $_SESSION['user']['username'] ?></span> &nbsp; &nbsp; <br>
-                <a href="<?php echo BASE_URL . '/logout.php'; ?>" class="logout-btn">logout</a>
-            </div>
-        <?php endif ?>
-    </div>
+    <?php include('../includes/navbar.php') ?>
+    <?php if (isset($_SESSION['user'])) : ?>
+        <div class="user-info">
+            <span><?php echo $_SESSION['user']['username'] ?></span> &nbsp; &nbsp; <br>
+            <a href="<?php echo BASE_URL . '/logout.php'; ?>" class="logout-btn">logout</a>
+        </div>
+    <?php endif ?>
 
     <div class="container dashboard">
-        <h1>Welcome</h1>
+
         <div class="stats">
-            <a href="users.php" class="first">
+            <a href="users.php" class="first btn">
                 <span>43</span> <br>
                 <span>Newly registered users</span>
             </a>
-            <a href="posts.php">
+            <a href="posts.php" class="btn">
                 <span>43</span> <br>
                 <span>Published posts</span>
             </a>
@@ -41,11 +39,14 @@
                 <span>Published comments</span>
             </a>
         </div>
+
         <br><br><br>
+
         <div class="buttons">
-            <a href="users.php">Add Users</a>
-            <a href="posts.php">Add Posts</a>
+            <a href="users.php" class="btn">Add Users</a><br>
+            <a href="posts.php" class="btn">Add Posts</a>
         </div>
+
     </div>
 
 </body>
