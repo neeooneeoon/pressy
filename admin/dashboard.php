@@ -27,7 +27,7 @@
                 <span>43</span> <br>
                 <span>Published posts</span>
             </a>
-            <a class="btn btn-primary" style="background-color: #0dcaf0;">
+            <a href="" class="btn btn-primary" style="background-color: #0dcaf0;">
                 <span>43</span> <br>
                 <span>Published comments</span>
             </a>
