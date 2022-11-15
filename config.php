@@ -2,7 +2,7 @@
 	session_start();
 
 	// connect to database
-	$conn = mysqli_connect("n2o93bb1bwmn0zle.chr7pe7iynqr.eu-west-1.rds.amazonaws.com", "c0d21bqza09enytv", "khnqoqquzjuyretd", "ou55ukpn13x8i4gt");
+	$conn = mysqli_connect("yt9.h.filess.io:3307", "pressy_flyremain", "024d785ebf45f476355608fecbaa85631e55c308", "pressy_flyremain");
 
 	if (!$conn) {
 		die("Error connecting to database: " . mysqli_connect_error());
